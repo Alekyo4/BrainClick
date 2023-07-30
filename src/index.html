@@ -4,12 +4,33 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://brainclick.vercel.app/">
+  <meta property="og:title" content="BrainClick">
+  <meta property="og:description" content="Just click on the big brain.">
+  <meta property="og:image" content="https://brainclick.vercel.app/assets/img/brain.png">
+
   <title>BrainClick</title>
+
+   <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WGBD04R6FG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WGBD04R6FG');
+  </script>
 
   <base href="/">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body class="bg-slate-900">
   <app-root class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96"></app-root>
+
+  <!--
+    By Alekyo4:
+    https://github.com/Alekyo4/BrainClick
+  -->
 </body>
 </html>
